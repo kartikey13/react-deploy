@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +6,95 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* display: flex; justify-content: center; align-items: center;  */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* Project 1 */
+/* .container{display: flex; justify-content: space-between; flex-direction: column;}
+.wrapper{background: #222; width: 30%; margin: 25px auto; border-radius:10px; box-shadow: 1px 1px 7px rgb(0, 0, 0, 0.4);} */
+
+/* top-box */
+/* .thumbnail-img{width: 100%; border-radius:8px 8px 0px 0px;}
+.small-head{color: #fff; font-size: 16px; font-weight: 400; text-align: center; margin-bottom: 10px;}
+.link{color:#fff; text-align: center; text-decoration: none; font-size: 14px;}
+.heading{font-size:28px; color: #fff; text-align: center; font-family: Georgia, 'Times New Roman', Times, serif; margin: 10px 0 0 0;}
+.btn-box{display: flex; flex-direction: row; justify-content: center; margin: 15px 0; gap: 35px;}
+.btn-box .btn{padding: 8px 20px; border: none; border-radius: 4px;}
+.btn-box .btn .dark{color: #222;}
+.btn-box .btn-blue{background: #315aa7;} */
+/* top-box */
+
+/* main-box */
+/* .main-box{display: flex; flex-direction: column; justify-content: space-evenly;}
+.main-box h4, .main-box p{color: #fff; padding: 0 30px; margin: 8px 0;}
+.main-box h4{font-size: 19px; font-weight: 500;}
+.main-box p{text-align: left;} */
+/* main-box */
+
+/* @media (max-width: 425px){
+  .wrapper{width: 90%;}
 }
+
+@media (min-width: 426px) and (max-width:768px){
+  .wrapper{width: 45%;}
+} */
+
+
+
+/* Project 2 */
+/* .contact{display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px;}
+.card{display: flex; flex-direction: column; }
+.card .image{width: 100%;}
+.card .head{background-color: blueviolet; padding: 5px 10px; margin-top: 0; color: #fff; font-weight: 400; text-align: center;}
+
+@media (max-width:425px){
+  .contact{
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width:426px) and (max-width:900px){
+  .contact{
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+} */
+
+/* PROJECT 3 */
+/* .destination{margin: 2rem 5rem ; display: grid; grid-template-columns: 40% 60%; border: 1px solid #ddd; }
+.image-box img{width: 100% ;}
+.main-content{ display: flex; flex-direction: column; padding: 0 25px;}
+
+
+.circle{border-radius: 50%; background: #ddd;}
+.circle h1{color: black; padding: 5px;} */
+
+/* .main{
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.box{
+  height: 260px;
+  width: 260px;
+  border: 1px solid #ddd;
+} */
+
+/* form in react exercise */
+/* form{display: flex; flex-direction: column; width: 30%; margin: auto;}
+form input, textarea{padding: 10px; margin-bottom: 10px;}
+form .specialcheck{display: inline-block;} */
+
+
+.navbar-wrap{background: purple; margin: 0; padding: 5px; text-align: center;}
+.navbar-wrap h1{color: #fff; font-family: 'Times New Roman', Times, serif; margin: 0; font-style: italic}
+form{text-align: center; margin: 30px 0;}
+form input{padding: 10px 25px; margin: 0 10px; width: 250px;}
+.image-bloc{display: flex; justify-content: center; align-self: center; flex-direction: column; margin: 40px 150px; position: relative; }
+.image-bloc img{width: 100%;}
+.next-img{display: flex; justify-content: center;}
+.next-img button{padding:10px; width: 40%; background: purple; color: #fff; font-size: 19px; border: none;}
+.over{position: absolute;top: 5%; left: 0; right: 0;}
+.over-scnd{position: absolute;bottom: 10%; left: 0; right: 0; }
+.over .top-head{font-size: 65px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; color: white; text-transform: capitalize !important; text-align: center; text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.8);}
+.over-scnd .bottom-head{font-size: 65px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; color: white; text-align: center; text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);}
