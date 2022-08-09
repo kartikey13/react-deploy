@@ -98,3 +98,9 @@ form input{padding: 10px 25px; margin: 0 10px; width: 250px;}
 .over-scnd{position: absolute;bottom: 10%; left: 0; right: 0; }
 .over .top-head{font-size: 65px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; color: white; text-transform: capitalize !important; text-align: center; text-shadow: 3px 3px 3px rgb(0, 0, 0, 0.8);}
 .over-scnd .bottom-head{font-size: 65px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900; color: white; text-align: center; text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);}
+
+@media (max-width: 425px){
+  form input{margin: 15px 0 0 0; padding: 8px 15px;}
+  .next-img button{padding: 8px; width: 60%; font-size: 16px;}
+  .image-bloc{margin: 15px 15px;}
+}
